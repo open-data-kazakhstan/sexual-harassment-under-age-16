@@ -100,5 +100,5 @@ def animate(indx):
     ax5.plot(df_total['year_exp'], df_total['totals'])
 
 animation = FuncAnimation(fig,animate, frames=range(df['ind'].min(), df['ind'].max()+1), interval = 5000)
-animation.save('smallergif.gif', dpi=100, writer=PillowWriter(fps=200)) # Script for saving
+animation.save('result.gif', dpi=100, writer=PillowWriter(fps=200)) # Script for saving
 plt.show()

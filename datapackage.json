@@ -1,0 +1,495 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "archive\\data_imp.csv",
+            "profile": "tabular-data-resource",
+            "name": "data_imp",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "type_of_punish",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amnt_stop_investigation",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "stoped_by_law125678",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_amnnision",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_reconciliation",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_other_reson",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_being_crazy",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amnt_opravdonyh",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amnt_osuzhden",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_less_1",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_1_3",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_1_5",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_3_5",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_5_8",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_8_10",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_10_12",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_15_20",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_20_25",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_25_30",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "death_punish",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "forever_jail",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "total",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "to_jail_lead",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_st_58",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_st_60",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "had_restriction",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "penalty",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "\u0441\u0443\u043c\u043c\u0430 \u0448\u0442\u0440\u0430\u0444\u0430",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "isprav_rabot",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "uslov_osuzhd",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "otsr_punish_74",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amnt_freed_amnist",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "freed_ugolov",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "obshest_rabot",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "freedom_restricted",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arested",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "other_punish",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "without_ugolov",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "low_punish",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arrested_law",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "confiscated_prop",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "heal_aclohol",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "heal_drugs",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data\\csv_wrang.csv",
+            "profile": "tabular-data-resource",
+            "name": "csv_wrang",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "field1",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type_of_punish",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amnt_stop_investigation",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "stoped_by_law125678",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_amnnision",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_reconciliation",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_other_reson",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_being_crazy",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amnt_opravdonyh",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amnt_osuzhden",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_less_1",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_1_3",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_1_5",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_3_5",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_5_8",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_8_10",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_10_12",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_15_20",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_20_25",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_25_30",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "death_punish",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "forever_jail",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "total",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "to_jail_lead",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_st_58",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "by_st_60",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "had_restriction",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "penalty",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "\u0441\u0443\u043c\u043c\u0430 \u0448\u0442\u0440\u0430\u0444\u0430",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "isprav_rabot",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "uslov_osuzhd",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "otsr_punish_74",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amnt_freed_amnist",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "freed_ugolov",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "obshest_rabot",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "freedom_restricted",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arested",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "other_punish",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "without_ugolov",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "low_punish",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arrested_law",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "confiscated_prop",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "heal_aclohol",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "heal_drugs",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "totals",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year_exp",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ind",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
